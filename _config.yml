@@ -1,1 +1,6 @@
-remote_theme: pages-themes/midnight
+remote_theme: pages-themes/hacker
+plugins:
+- jekyll-remote-theme
+title: [public memos]
+description: [A short description of your site's purpose]
+show_downloads: ["false"]
