@@ -1,4 +1,5 @@
-# public-memos
-Easier than blogs and articles. Published even at the draft level and updated from time to time.
+# Index
+- [FULLTEXTインデックスの簡単な説明 (2025/02/09)](/ft-index.html)
 
-Contact: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfijbvsqOBsh8URng07blGPULKu1btt0b1ja09Jtq-T0LjEow/viewform?usp=header)
+# Contact
+[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfijbvsqOBsh8URng07blGPULKu1btt0b1ja09Jtq-T0LjEow/viewform?usp=header)
