@@ -1,6 +1,8 @@
 remote_theme: pages-themes/midnight
 plugins:
 - jekyll-remote-theme
-title: "public memos"
+include:
+  - css/custom.css
+title: "<a href='/public-memos/'>public memos</a>"
 description: "A public note, written casually."
 show_downloads: false
