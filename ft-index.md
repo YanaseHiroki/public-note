@@ -1,3 +1,8 @@
+<style>
+.github-corner {
+    display: none;
+}
+</style>
 # MySQL FULLTEXTインデックスの簡単な説明
 
 <hr>
