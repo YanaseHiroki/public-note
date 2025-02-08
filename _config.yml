@@ -1,6 +1,6 @@
 remote_theme: pages-themes/hacker
 plugins:
 - jekyll-remote-theme
-title: [public memos]
-description: [A short description of your site's purpose]
-show_downloads: ["false"]
+title: "public memos"
+description: "A public note, written casually."
+show_downloads: false
