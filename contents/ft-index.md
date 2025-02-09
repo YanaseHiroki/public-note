@@ -109,4 +109,4 @@ MySQLでInnoDBというストレージエンジンを採用している場合、
 ## まとめ
 FULLTEXTインデックスは文字列検索の高速化に役立ちますが導入の際は設定変更が必要かもしれません。
 <br><br><br><br><br>
-<p class="right-align">初稿：2025/02/09</p>
+<p class="timestamp">初稿：2025/02/09</p>
