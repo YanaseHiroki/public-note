@@ -2,7 +2,7 @@
 <br>
 - [MySQL FULLTEXTインデックスの簡単な説明 (2025/02/09)](./contents/ft-index)
 
-<br><br><br>
+<br><br>
 
 # Contact
 <br>
