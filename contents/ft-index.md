@@ -6,9 +6,6 @@ FULLTEXTインデックスはMySQLの機能の1つですが、調べ始めたと
 
 [MySQL :: MySQL 8.0 リファレンスマニュアル :: 15.6.2.4 InnoDB FULLTEXT インデックス](https://dev.mysql.com/doc/refman/8.0/ja/innodb-fulltext-index.html)
 
-### 目的
-FULLTEXTインデックスというものをざっくり理解してもらう
-
 ### 免責
 概要を理解していただくことを重視するため、「基本的に」や「～など」といった語をつけた方が正しい内容でもあえて省略して、一例だけ説明します。
 
