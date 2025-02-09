@@ -22,3 +22,11 @@ span.credits.right {
 h2,h3 {
     margin-top: 1.5em;
 }
+
+h1 + hr {
+    display: none;
+}
+
+section p:last-of-type {
+    margin-top: 36px;
+}
