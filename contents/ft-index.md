@@ -98,6 +98,7 @@ MySQLでInnoDBというストレージエンジンを採用している場合、
 <br><br>
 1. まずデフォルトのパーサーではなくngram パーサーを有効にします。
 2. そしてngram_token_sizeという設定値を2または1にしてください。<br><br>
+
 こうすることで2文字または1文字のインデックスが生成され、2文字または1文字の検索語で検索が可能になります。
 
 参考：[MySQL :: MySQL 8.0 リファレンスマニュアル :: 12.10.6 MySQL の全文検索の微調整](https://dev.mysql.com/doc/refman/8.0/ja/fulltext-fine-tuning.html)
