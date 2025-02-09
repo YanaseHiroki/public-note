@@ -16,6 +16,10 @@ FULLTEXTインデックスはMySQLの機能の1つですが、調べ始めたと
 ## 本編
 結論からいうと、FULLTEXTインデックスは文字列検索の高速化に役立ちますが導入の際は設定変更が必要かもしれません。 
 
+> FULLTEXT インデックスは、テキストベースのカラム (CHAR、VARCHAR または TEXT カラム) に作成され、それらのカラムに含まれるデータに対するクエリーおよび DML 操作を高速化し、ストップワードとして定義されている単語を省略します。 
+
+引用元：[MySQL :: MySQL 8.0 リファレンスマニュアル :: 15.6.2.4 InnoDB FULLTEXT インデックス](https://dev.mysql.com/doc/refman/8.0/ja/innodb-fulltext-index.html)
+
 足掛かりとして公式ドキュメント冒頭の説明文を解説します：
 
 > FULLTEXT インデックスは、テキストベースのカラム (CHAR、VARCHAR または TEXT カラム) に作成され、
