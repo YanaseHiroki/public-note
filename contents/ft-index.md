@@ -1,7 +1,7 @@
 # MySQL FULLTEXTインデックスの簡単な説明
 
 ## まえがき
-FULLTEXTインデックスはMySQLの機能の1つですが、私にとって簡単な解説記事が見つからなかったため本記事を書くことにしました。<br>
+FULLTEXTインデックスはMySQLの機能の1つですが、調べ始めたとき私にとって簡単な解説記事が見つからなかったため本記事を書くことにしました。<br>
 公式ドキュメントを初見で理解できる方は以下リンクからどうぞ。
 
 [MySQL :: MySQL 8.0 リファレンスマニュアル :: 15.6.2.4 InnoDB FULLTEXT インデックス](https://dev.mysql.com/doc/refman/8.0/ja/innodb-fulltext-index.html)
