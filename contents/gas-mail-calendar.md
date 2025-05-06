@@ -40,7 +40,10 @@ function addSalonAppointmentToCalendar() {
       const body = message.getPlainBody();
 
       const datetimeMatch = body.match(/ご予約日時:\s*(\d{4})年(\d{2})月(\d{2})日\s*(\d{2})時(\d{2})分/);
-      if (!datetimeMatch) return;
+      if (!datetimeMatch) {
+        Logger.log("本文の予約日時を取得できないため中断");
+        return;
+      }
 
       const [_, year, month, day, hour, minute] = datetimeMatch;
       let startTime = new Date(Number(year), Number(month) - 1, Number(day), Number(hour), Number(minute));
