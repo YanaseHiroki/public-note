@@ -80,6 +80,6 @@ function addSalonAppointmentToCalendar() {
 // 10分前到着の地図URLを生成（JST補正含む）
 function generateMapUrlWithArrivalTime(date) {
   const unixTime = Math.floor(date.getTime() / 1000) - 10 * 60 + 9 * 60 * 60;
-  return `https://www.google.co.jp/maps/dir/{{...経路の始点と終点を表す部分...}}!8j${unixTime}!3e3?hl=ja&entry=ttu`;
+  return `https://www.google.co.jp/maps/dir/......経路の始点と終点を表す部分......!8j${unixTime}!3e3?hl=ja&entry=ttu`;
 }
 ```
