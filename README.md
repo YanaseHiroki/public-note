@@ -1,7 +1,7 @@
 # Articles
 <br>
-- [MySQL FULLTEXTインデックスの簡単な説明 (2025/02/09)](./contents/ft-index)
-- [Gmailの予約メールをGoogleカレンダーに自動登録し通知するGAS (2025/05/06)](./contents/gas-mail-calendar)
+- [MySQL FULLTEXTインデックスの簡単な説明 (2025/02/09)](https://yanasehiroki.github.io/public-note/contents/ft-index)
+- [Gmailの予約メールをGoogleカレンダーに自動登録し通知するGAS (2025/05/06)](https://yanasehiroki.github.io/public-note/contents/gas-mail-calendar)
 
 <br><br>
 
