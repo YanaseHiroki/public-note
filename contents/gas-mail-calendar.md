@@ -87,3 +87,9 @@ function generateMapUrlWithArrivalTime(date) {
   return `https://www.google.co.jp/maps/dir/......経路の始点と終点を表す部分......!8j${unixTime}!3e3?hl=ja&entry=ttu`;
 }
 ```
+---
+- 画像左：毎朝、定期的に実行するトリガー 
+- 画像右：GASの編集画面 
+
+![image](https://github.com/user-attachments/assets/22a8ba84-e0de-4a3a-a294-fbf18479cce6)
+
