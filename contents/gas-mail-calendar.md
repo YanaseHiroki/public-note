@@ -26,7 +26,7 @@ Google Apps Script (GAS) を使って、Gmailに届いた特定の予約メー�
 
 以下が実際のコードです。個人情報（メールアドレスやURL）は伏せています。
 
-```
+```javascript
 // メールが来たらGoogleカレンダーに追加し、自分に通知メールを送信する
 function addSalonAppointmentToCalendar() {
   const threads = GmailApp.search('from:****@****.jp subject:"予約登録が完了しました" newer_than:7d');
