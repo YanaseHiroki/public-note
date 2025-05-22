@@ -63,7 +63,7 @@ function addSalonAppointmentToCalendar() {
 
       // イベント追加
       calendar.createEvent("サロン予約", startTime, endTime, {
-        location: mapUrl
+        description: mapUrl
       });
 
       // 通知メール送信
@@ -87,6 +87,7 @@ function generateMapUrlWithArrivalTime(date) {
   return `https://www.google.co.jp/maps/dir/......経路の始点と終点を表す部分......!8j${unixTime}!3e3?hl=ja&entry=ttu`;
 }
 ```
+参考：[Class Calendar  _  Apps Script  _  Google for Developers](https://developers.google.com/apps-script/reference/calendar/calendar#createAllDayEvent(String,Date,Object))
 ---
 - 画像左：毎朝、定期的に実行するトリガー 
 - 画像右：GASの編集画面 
